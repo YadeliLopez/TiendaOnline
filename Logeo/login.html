@@ -8,30 +8,29 @@
     <link rel="stylesheet" type="text/css" href="loginEstilo.css">
 </head>
 <body>
-    <div class="c1">
-        <h1>Iniciar Sesión</h1>
-    </div>
-
-    <div class="c2">
-        <form id="miForm">
-            <!--Entrada del nombre-->
-            <input class="input" type="text" id="usuario" placeholder="Username">
-            <br>
-            <!--Entrada de contraseña-->
-            <input class="input" type="password" id="contra" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
-            <br>
-            <!--Confirmación de contraseña-->
-            <input class="input" type="password" id="contra2" placeholder="Confirma tu contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
-            <br>
-        </form>
-    </div>
+    <div class="container">
+        <div class="c1">
+            <h1>Iniciar Sesión</h1>
+        </div>
     
-    <div class="c3">
-        <button type="button" id="boton" class="boton">Entrar</button>
-    </div>
-    
-    <div class="c4">
-        <label>¿No tienes una cuenta? <a href="registro.html" role="button">Regístrate</a></label>
+        <div class="c2">
+            <form id="miForm">
+                <!--Entrada del nombre-->
+                <input class="input" type="text" id="usuario" placeholder="Username">
+                <br>
+                <!--Entrada de contraseña-->
+                <input class="input" type="password" id="contra" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
+                <br>
+            </form>
+        </div>
+        
+        <div class="c3">
+            <button type="button" id="boton" class="boton">Entrar</button>
+        </div>
+        
+        <div class="c4">
+            <label>¿No tienes una cuenta? <a href="/Registro/registro.html" role="button">Regístrate</a></label>
+        </div>
     </div>
 
     <script src="logeo.js"></script>

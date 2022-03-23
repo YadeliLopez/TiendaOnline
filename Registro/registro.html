@@ -8,34 +8,37 @@
     <title>Tienda Online</title>
 </head>
 <body>
-    <div class="c1">
-        <h1>Registro de usuario</h1>
-    </div>
 
-    <div class="c2">
-        <form id="miForm">
-            <!--Entrada del nombre-->
-            <input class="input" type="text" id="usuario" placeholder="Nombre">
-            <br>
-            <!--Entrada de apellido paterno-->
-            <input class="input" type="text" id="usuario" placeholder="Apellido Paterno">
-            <br>
-            <!--Entrada de username-->
-            <input class="input" type="text" id="usuario" placeholder="Username">
-            <br>
-            <!--Entrada de contraseña-->
-            <input class="input" type="password" id="contra" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
-            <br>
-            <!--Confirmación de contraseña-->
-            <input class="input" type="password" id="contra2" placeholder="Confirma tu contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
-            <br>
-        </form>
-    </div>
+    <div class="container">
+        <div class="c1">
+            <h1>Registro de usuario</h1>
+        </div>
     
-    <div class="c3">
-        <button type="button" id="boton" class="boton">Registrar</button>
+        <div class="c2">
+            <form id="miForm">
+                <!--Entrada del nombre-->
+                <input class="input" type="text" id="usuario" placeholder="Nombre">
+                <br>
+                <!--Entrada de apellido paterno-->
+                <input class="input" type="text" id="usuario" placeholder="Apellido Paterno">
+                <br>
+                <!--Entrada de username-->
+                <input class="input" type="text" id="usuario" placeholder="Username">
+                <br>
+                <!--Entrada de contraseña-->
+                <input class="input" type="password" id="contra" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
+                <br>
+                <!--Confirmación de contraseña-->
+                <input class="input" type="password" id="contra2" placeholder="Confirma tu contraseña" required pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*">
+                <br>
+            </form>
+        </div>
+        
+        <div class="c3">
+            <button type="button" id="boton" class="boton">Registrar</button>
+        </div>
     </div>
 
-    <script src="registro.js"></script>
+    <script src="/Registro/registro.js"></script>
 </body>
 </html>
